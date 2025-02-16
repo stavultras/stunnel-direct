@@ -454,6 +454,8 @@ extern char *sys_errlist[];
 #endif /* !defined(OPENSSL_NO_OCSP) */
 #endif /* OpenSSL older than 0.9.8h */
 
+#define OPENSSL_NO_OCSP
+
 #if OPENSSL_VERSION_NUMBER<0x00908060L
 #define OPENSSL_NO_TLSEXT
 #endif /* OpenSSL older than 0.9.8f */
